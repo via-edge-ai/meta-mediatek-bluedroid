@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 inherit autotools-brokensep
 
 SRC_URI = "${AIOT_NDA_URI}/neptune/bt_others/vendor_lib.git;protocol=ssh;branch=main;"
-SRCREV = "3eefc3652f1309b652fc12bbc1a18230f52af227"
+SRCREV = "52d7efbd14e4802a8f343ab982e8f1823baeb643"
 
 
 S = "${WORKDIR}/git"
