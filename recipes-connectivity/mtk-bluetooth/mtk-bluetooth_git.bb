@@ -2,7 +2,7 @@ SUMMARY = "MediaTek Bluetooth Stack"
 LICENSE = "CLOSED"
 
 SRC_URI = "${AIOT_NDA_URI}/neptune/bt_sw.git;protocol=ssh;branch=main;"
-SRCREV = "0c6bb6ca21fe2d13c7b5e44075d28c89d04811e3"
+SRCREV = "603a309cd4dd3dac2aea6b8df2d2484986275a1c"
 
 S = "${WORKDIR}/git"
 WORKONSRC_bluetooth_tool = "${S}/bt_others/bluetooth_tool"
